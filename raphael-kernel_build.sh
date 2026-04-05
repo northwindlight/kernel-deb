@@ -2,7 +2,7 @@
 set -e  # 遇到错误立即退出
 
 # 克隆指定版本的内核源码
-git clone https://github.com/Aospa-raphael-unofficial/linux --branch sm8150-xiaomi-raphael --depth 1 linux
+git clone https://github.com/northwindlight/linux --branch raphael-6.18 --depth 1 linux
 
 # 应用 builddeb 补丁
 patch linux/scripts/package/builddeb < builddeb.patch
